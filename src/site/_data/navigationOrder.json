@@ -1,0 +1,39 @@
+{
+  "/": [
+    "University"
+  ],
+  "/University": [
+    "Notes"
+  ],
+  "/University/Notes": [
+    "Year 1",
+    "Notes"
+  ],
+  "/University/Notes/Year 1": [
+    "PH1110",
+    "Year 1"
+  ],
+  "/University/Notes/Year 1/PH1110": [
+    "PH1110",
+    "Functions",
+    "Logarithms",
+    "Series",
+    "Taylor and Maclaurin Expansions",
+    "Differentiation",
+    "Partial Differentiation",
+    "Polar Coordinates",
+    "Integration",
+    "Hyperbolic Functions",
+    "Ordinary Differential Equations (ODEs)",
+    "Limits",
+    "The Fundamental Theorem of Algebra",
+    "Euler’s Formula",
+    "De Moivre’s Theorem",
+    "Complex Logarithms",
+    "Linear Transformations",
+    "Matrices",
+    "Vectors",
+    "Set Theory and Probabilities",
+    "Probability Distributions"
+  ]
+}

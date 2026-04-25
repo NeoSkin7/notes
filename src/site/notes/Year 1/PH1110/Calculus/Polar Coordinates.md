@@ -100,3 +100,23 @@ $$
 ```
 ````
 This produces a coordinate system which is bounded by a sphere.
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr">
+  <div>$$
+\begin{align*}
+\text{Spherical: }&(r,\vartheta,\varphi)\\
+\text{3D Cartesian: }&(x,y,z)
+\end{align*}\\
+0\le\vartheta\le\pi\\
+0\le\varphi<2\pi
+$$</div>
+  <div>$$
+x=r\sin{\vartheta}\cos{\varphi}\\
+y=r\sin{\vartheta}\sin{\varphi}\\
+z=r\cos{\vartheta}
+$$</div>
+  <div>$$
+r=\sqrt{x^2+y^2+z^2}\\
+\vartheta=\arccos{\frac{z}{r}}\\
+\varphi=\arctan{\frac{y}{x}}
+$$</div>
+</div>

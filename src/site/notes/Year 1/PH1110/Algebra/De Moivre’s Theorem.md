@@ -5,14 +5,18 @@
 # Argument Rule
 The argument of a product of two complex numbers is the sum of their arguments:
 $$
+\displaylines{
 \arg{z_1z_2}=\arg{z_1}+\arg{z_2}\\
 \arg{\frac{z_1}{z_2}}=\arg{z_1}-\arg{z_2}
+}
 $$
 # Modulus Rule
 The modulus of a product of two complex numbers is the product of their moduli:
 $$
+\displaylines{
 \left|z_1z_2\right|=\left|z_1\right|\left|z_2\right|\\
 \left|\frac{z_1}{z_2}\right|=\frac{\left|z_1\right|}{\left|z_2\right|}
+}
 $$
 # De Moivre’s Theorem
 Using both of the above rules, an expression can be derived using the polar form of a complex number for the multiplication of complex numbers:
@@ -36,10 +40,11 @@ Which is trivial, but useful.
 ## Trigonometric Identities
 By comparing the square of a complex number using De Moivre’s theorem and through binomial expansion, two identities can be derived:
 $$
+\displaylines{
 \begin{cases}
 z^2=r^2\left[\cos{2\varphi}+i\sin{2\varphi}\right]\\
 z^2=r^2\left[\cos{\varphi}+i\sin{\varphi}\right]^2\\
-\end{cases}
+\end{cases}\\
 \text{ Let }r=1\ \therefore
 \begin{cases}
 z^2=\left[\cos{2\varphi}+i\sin{2\varphi}\right]\\
@@ -52,10 +57,12 @@ z^2=\left[\cos{\varphi}+i\sin{\varphi}\right]^2\\
 \cos^2{\varphi}-\sin^2{\varphi}=\cos{2\varphi}\\
 2\sin{\varphi}\cos{\varphi}=\sin{2\varphi}
 \end{cases}
+}
 $$
 ## The $n$th Root of a Complex Number
 By setting a complex number equal to a power of another, the root of the first can be found:
 $$
+\displaylines{
 \text{Consider }\omega^n=z:\\
 \begin{cases}
 z=r\left[\cos{\varphi}+i\sin{\varphi}\right]\\
@@ -73,6 +80,7 @@ n\vartheta=\varphi+2k\pi,k\in\mathbb{Z}
 \rho=\sqrt[n]{r}\\
 \vartheta=\dfrac{\varphi+2k\pi}{n},\{k\in\mathbb{Z}\mid0\le k\le(n-1)\}
 \end{cases}
+}
 $$
 Hence, the $n$th roots of a complex number are:
 $$

@@ -36,7 +36,9 @@ where $y=\frac{1}{x}$.
 # L’Hôpital’s Rule
 When both $f(a)$ and $g(a)$ are equal to zero, their quotient cannot be evaluated in a limit. In this case, consider the Taylor expansion of both functions, to find:
 $$
-\lim_{x\to a}{\frac{f(x)}{g(x)}}=\lim_{x\to a}{\frac{f(a)+(x-a)f^{\prime}(a)+\frac{(x-a)^2}{2!}f^{\prime\prime}(a)+\cdots}{g(a)+(x-a)g^{\prime}(a)+\frac{(x-a)^2}{2!}g^{\prime\prime}(a)+\cdots}}=\lim_{x\to a}{\frac{f^{\prime}(a)+\frac{(x-a)}{2!}f^{\prime\prime}(a)+\cdots}{g^{\prime}(a)+\frac{(x-a)}{2!}g^{\prime\prime}(a)+\cdots}}=\lim_{x\to a}{\frac{f^{\prime}(x)}{g^{\prime}(x)}}
+\begin{align}
+\lim_{x\to a}{\frac{f(x)}{g(x)}}&=\lim_{x\to a}{\frac{f(a)+(x-a)f^{\prime}(a)+\frac{(x-a)^2}{2!}f^{\prime\prime}(a)+\cdots}{g(a)+(x-a)g^{\prime}(a)+\frac{(x-a)^2}{2!}g^{\prime\prime}(a)+\cdots}}\\&=\lim_{x\to a}{\frac{f^{\prime}(a)+\frac{(x-a)}{2!}f^{\prime\prime}(a)+\cdots}{g^{\prime}(a)+\frac{(x-a)}{2!}g^{\prime\prime}(a)+\cdots}}\\&=\lim_{x\to a}{\frac{f^{\prime}(x)}{g^{\prime}(x)}}
+\end{align}
 $$
 If both $f^{\prime}(a)$ and $g^{\prime}(a)$ are also zero, the Taylor expansion can be revaluated:
 $$

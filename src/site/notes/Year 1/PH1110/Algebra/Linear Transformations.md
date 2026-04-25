@@ -8,17 +8,31 @@ T(a\mathbf{n}+b\mathbf{m})=aT(\mathbf{n})+bT(\mathbf{m})
 $$
 where $T$ is a linear transformation applied to the vectors $\mathbf{n}$ and $\mathbf{m}$, $a$ and $b$ are scalar multipliers.
 This equation is comprised of two conservation laws:
-<!-- Column 1 -->
+````col
+```col-md
+flexGrow=1
+===
+
+```
+````
+````col
+```col-md
+flexGrow=1
+===
 # Conservation of Additivity
 $$
 T(\mathbf{n}+\mathbf{m})=T(\mathbf{n})+T(\mathbf{m})
 $$
-
-<!-- Column 2 -->
+```
+```col-md
+flexGrow=1
+===
 # Conservation of Scalar Multiplication
 $$
 T(k\mathbf{n})=kT(\mathbf{n})
 $$
+```
+````
 # Properties of Linear Transformations
 The linear transformation $T$ maps the set $V$ onto the set $W$, mathematically, $T:V\to W$.
 ## Injective

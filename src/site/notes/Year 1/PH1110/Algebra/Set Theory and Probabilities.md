@@ -19,7 +19,7 @@ $$
 $$
 as, for mutually exclusive sets:
 $$
-A\cap B=\{\empty\}
+A\cap B=\{\emptyset\}
 $$
 # Independent Sets
 Sets which are independent do not effect each other:

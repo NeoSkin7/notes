@@ -9,20 +9,26 @@ A function…
 
 # Parity
 Functions can be odd, even, or neither based on their symmetry about the $y$-axis ($x=0$).
-<!-- Column 1 -->
+````col
+```col-md
+flexGrow=1
+===
 Even functions are symmetric:
 $$
 f(-x)=f(x)
 $$
 e.g. $y=\cos{x}$ or $y=x^2$.
-
-<!-- Column 2 -->
+```
+```col-md
+flexGrow=1
+===
 Odd functions are asymmetric (reflected):
 $$
 f(-x)=-f(x)
 $$
 e.g. $y=\sin{x}$ or $y=x$.
-
+```
+````
 ---
 The sum of two odd or even functions will always result in a function of the same symmetry:
 $$

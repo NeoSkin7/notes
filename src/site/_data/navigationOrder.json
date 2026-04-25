@@ -1,22 +1,16 @@
 {
   "/": [
-    "University"
-  ],
-  "/University": [
-    "Notes"
-  ],
-  "/University/Notes": [
     "Year 1",
     "Welcome!"
   ],
-  "/University/Notes/Year 1": [
+  "/Year 1": [
     "PH1110"
   ],
-  "/University/Notes/Year 1/PH1110": [
+  "/Year 1/PH1110": [
     "Calculus",
     "Algebra"
   ],
-  "/University/Notes/Year 1/PH1110/Calculus": [
+  "/Year 1/PH1110/Calculus": [
     "Functions",
     "Logarithms",
     "Series",
@@ -29,7 +23,7 @@
     "Ordinary Differential Equations (ODEs)",
     "Limits"
   ],
-  "/University/Notes/Year 1/PH1110/Algebra": [
+  "/Year 1/PH1110/Algebra": [
     "The Fundamental Theorem of Algebra",
     "Euler’s Formula",
     "De Moivre’s Theorem",
